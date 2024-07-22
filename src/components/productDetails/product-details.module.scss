@@ -1,0 +1,207 @@
+.product-thumbnail-list {
+  width: fit-content;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: scroll;
+}
+
+.product-thumbnail {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.product-details-content {
+  width: 900px;
+  height: fit-content;
+  display: flex;
+  gap: 110px;
+}
+
+.product-image-container {
+  width: 575px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-container .carousel-arrow {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  &:hover .carousel-container .carousel-arrow {
+    opacity: 1;
+  }
+}
+
+.carousel-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+
+.carousel-arrow {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.product-options-container {
+  width: 292px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.add-to-cart-button {
+  width: 100%;
+  height: 52px;
+  padding: 16px 32px;
+  background: #5ece7b;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: center;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.disabled-button {
+  background: gray;
+}
+
+.product-title {
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+}
+
+.attribute-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.attribute-label {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+
+.price {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  color: black;
+}
+
+.attribute-items-list {
+  display: flex;
+  gap: 12px;
+
+  * {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+}
+
+.non-color-attribute {
+  width: 63px;
+  height: 45px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.color-attribute-border {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid white;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-attribute {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgb(227, 227, 227);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.chosen-attribute {
+  background-color: black;
+  color: white;
+}
+
+.chosen-color {
+  border: 1px solid #5ece7b;
+}
+
+.description {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.59px;
+  text-align: left;
+
+  > * {
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    line-height: 1.2em;
+    padding: 5px 0px;
+  }
+}
