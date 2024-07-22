@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/scandi-extra/static/css/main.0ec47d67.css",
+    "main.js": "/scandi-extra/static/js/main.2d37a535.js",
+    "static/media/logo.svg": "/scandi-extra/static/media/logo.fc5748ac4422c2b9000d2fd78b83b32b.svg",
+    "index.html": "/scandi-extra/index.html",
+    "static/media/left-arrow.svg": "/scandi-extra/static/media/left-arrow.e691a44cbdee890c1db2be4e3387f64e.svg",
+    "static/media/right-arrow.svg": "/scandi-extra/static/media/right-arrow.3f8f9d2496106c3200dadbdb5748c5b2.svg",
+    "main.0ec47d67.css.map": "/scandi-extra/static/css/main.0ec47d67.css.map",
+    "main.2d37a535.js.map": "/scandi-extra/static/js/main.2d37a535.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ec47d67.css",
+    "static/js/main.2d37a535.js"
+  ]
+}
